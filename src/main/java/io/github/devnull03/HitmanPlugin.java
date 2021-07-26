@@ -51,11 +51,11 @@ public final class HitmanPlugin extends JavaPlugin {
 //                }
                 if (breakTime){
                     Bukkit.broadcastMessage(ChatColor.RED +
-                            String.format(ChatColor.BOLD + "Disabled break-time next one in %s", HitmanPlugin.interval));
+                            String.format(ChatColor.BOLD + "- PvP je ukljucen 10 Minuta -", HitmanPlugin.interval));
                     breakTime = false;
                 } else {
                     Bukkit.broadcastMessage(ChatColor.GREEN +
-                            String.format(ChatColor.BOLD + "Enabled break-time for %s", HitmanPlugin.interval));
+                            String.format(ChatColor.BOLD + "- PvP je iskljucen 10 Minuta -", HitmanPlugin.interval));
                     breakTime = true;
                 }
             }
